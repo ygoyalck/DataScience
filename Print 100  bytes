@@ -1,0 +1,5 @@
+## Open and read data file as specified in the question
+## Print the required output in given format
+file_obj=open('Sample.txt')
+a=file_obj.read(100)
+print(a)
