@@ -1,0 +1,15 @@
+## Open and read data file as specified in the question
+## Print the required output in given format
+## Open and read data file as specified in the question
+## Print the required output in given format
+## Open and read data file as specified in the question
+## Print the required output in given format
+import csv
+file_obj=open('year2017.csv')
+file=csv.reader(file_obj,skipinitialspace=True)
+l=list(file)
+casual=[]
+for i in range(1,len(l)):
+  if(l[i][15]!='' and l[i][14]=='Explosives'):
+    casual.append(int(float(l[i][15])))
+print(sum(casual))
