@@ -1,0 +1,8 @@
+## Open and read data file as specified in the question
+## Print the required output in given format
+import csv
+file_obj=open('year2017.csv')
+file=csv.reader(file_obj)
+l=list(file)
+for i in range(10):
+  print(l[i][3])
