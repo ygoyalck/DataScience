@@ -1,0 +1,6 @@
+## Open and read data file as specified in the question
+## Print the required output in given format
+file_obj=open('Sample.txt')
+listoflines=file_obj.readlines()
+for i in range(5):
+  print(listoflines[i])
