@@ -1,0 +1,10 @@
+## Open and read data file as specified in the question
+## Print the required output in given format
+import csv
+file_obj=open('year2017.csv')
+file=csv.reader(file_obj,skipinitialspace=True)
+l=list(file)
+for i in range(3):
+  for j in range(16):
+    print(l[i][j],end=" ")
+  print()
