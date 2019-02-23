@@ -1,0 +1,16 @@
+Identity Matrix
+Send Feedback
+Problem Statement:
+Create an integer identity matrix of size (5, 6).
+Print the Numpy array.
+Output Format :
+numpyArray
+
+
+
+
+## Open and read data file as specified in the question
+## Print the required output in given format
+import numpy as np
+a=np.eye(5,6,dtype=int)
+print(a)
